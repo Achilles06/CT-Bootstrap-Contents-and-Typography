@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enhancing Web Pages with Bootstrap</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .custom-section {
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container my-5">
+    <!-- Header Section -->
+    <header class="text-center mb-5">
+      <h1>Welcome to Tech Solutions</h1>
+      <p>Your partner in innovative technology solutions.</p>
+    </header>
+
+    <!-- Task 1: Incorporate responsive images using Bootstrap's image classes -->
+    <section class="text-center mb-5">
+      <h2>Our Office</h2>
+      <img src="office.jpg" class="img-fluid rounded" alt="Our Office">
+    </section>
+
+    <!-- Task 2: Create a grid layout for image gallery using Bootstrap's grid system -->
+    <section class="mb-5">
+      <h2>Image Gallery</h2>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+          <img src="gallery1.jpg" class="img-fluid rounded" alt="Gallery Image 1">
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+          <img src="gallery2.jpg" class="img-fluid rounded" alt="Gallery Image 2">
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+          <img src="gallery3.jpg" class="img-fluid rounded" alt="Gallery Image 3">
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+          <img src="gallery4.jpg" class="img-fluid rounded" alt="Gallery Image 4">
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+          <img src="gallery5.jpg" class="img-fluid rounded" alt="Gallery Image 5">
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+          <img src="gallery6.jpg" class="img-fluid rounded" alt="Gallery Image 6">
+        </div>
+      </div>
+    </section>
+
+    <!-- Task 3: Implement a responsive footer with relevant information and links -->
+    <footer class="bg-dark text-white text-center py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+            <h4>Contact Information</h4>
+            <p>Address: 123 Tech Street, Tech City, TC 12345</p>
+            <p>Email: <a href="mailto:info@techsolutions.com" class="text-white">info@techsolutions.com</a></p>
+            <p>Phone: <a href="tel:+1234567890" class="text-white">+1 234 567 890</a></p>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+            <h4>Follow Us</h4>
+            <p><a href="#" class="text-white">Facebook</a></p>
+            <p><a href="#" class="text-white">Twitter</a></p>
+            <p><a href="#" class="text-white">LinkedIn</a></p>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+            <h4>Newsletter Signup</h4>
+            <form>
+              <div class="mb-3">
+                <label for="newsletter-email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="newsletter-email" placeholder="Your Email">
+              </div>
+              <button type="submit" class="btn btn-primary">Subscribe</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
